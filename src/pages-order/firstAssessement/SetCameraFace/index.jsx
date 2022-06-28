@@ -1,10 +1,12 @@
+import StartFooter from '../../../components/common/StartFooter'
 import styles from './style.module.css'
 
-// Creator : Team A - Shahar
+// Creator : team2 - eliezerKott
+// need to add header
 function Temp(){
-    return <>
-    
-    </>
+    return <div>
+    <StartFooter/>
+    </div>
 }
 
 

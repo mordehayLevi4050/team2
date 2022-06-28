@@ -8,7 +8,7 @@ import camera from "../StartFooter/camera.svg";
 
 function StartFooter({ title, icon, text, onclick }) {
   return (
-    <div>
+    <div className={styles.bigDiv}>
       <div className={styles.aroundButton}>
         {<StartButton onclick={onclick} />}
       </div>
