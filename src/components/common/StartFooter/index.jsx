@@ -8,7 +8,7 @@ import camera from "../StartFooter/camera.svg";
 
 function StartFooter({ title, icon, text, onclick }) {
   return (
-    <div>
+    <div className={styles.bigDiv}>
       <div className={styles.aroundButton}>
         {<StartButton onclick={onclick} />}
       </div>
@@ -20,9 +20,7 @@ function StartFooter({ title, icon, text, onclick }) {
             <img
               className={styles.cone}
               src={
-                (icon = "headphones"
-                  ? headphones
-                  : (icon = "camera" ? camera : cone))
+                icon
               }
               alt="coneIcon"
             />
