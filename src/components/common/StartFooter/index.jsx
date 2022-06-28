@@ -20,9 +20,7 @@ function StartFooter({ title, icon, text, onclick }) {
             <img
               className={styles.cone}
               src={
-                (icon = "headphones"
-                  ? headphones
-                  : (icon = "camera" ? camera : cone))
+                icon
               }
               alt="coneIcon"
             />
