@@ -1,4 +1,4 @@
-import Instructions from "../common/instructions/Insructions";
+import Instructions from "../../pages-order/firstAssessement/Instructions";
 
 function Test() {
   return <Instructions />;

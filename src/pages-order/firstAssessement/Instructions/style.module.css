@@ -1,0 +1,22 @@
+#root {
+  max-width: 350px;
+  margin: auto;
+  width: 100%;
+}
+.firsDiv {
+  max-width: 400px;
+  margin: auto;
+}
+
+.text {
+  margin: auto;
+  margin-left: 10px;
+  display: flex;
+}
+.movies {
+  margin: 5px;
+}
+.button {
+  bottom: 0px;
+  width: 100%;
+}
