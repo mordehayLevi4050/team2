@@ -5,7 +5,7 @@ import img from "./camera.svg"
 // need to add header
 function SetCameraFace(){
     return <div>
-    <StartFooter title={"start now"} icon={img}/>
+    <StartFooter to={"/Comprehension"} title={"start now"} icon={img}/>
     </div>
 }
 
