@@ -5,12 +5,12 @@ import headphones from "../StartFooter/headphones.svg";
 import camera from "../StartFooter/camera.svg";
 
 // Creator : Team 2 - eliezer-kott
-
-function StartFooter({ title, icon, text, onclick }) {
+// props for title, icon, text, onclick,to(for the startbutton as link)
+function StartFooter({ title, icon, text, onclick,to }) {
   return (
     <div className={styles.bigDiv}>
       <div className={styles.aroundButton}>
-        {<StartButton onclick={onclick} />}
+        {<StartButton to={to} onclick={onclick} />}
       </div>
       <div className={styles.fatherDiv}>
         <p className={styles.text}>{title}</p>

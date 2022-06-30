@@ -6,9 +6,10 @@ import img1 from './Vector.svg'
 // need to add header
 // props of icon title text and function for in click 
 function FirstAssement(){
+    
     return <div>
         <img className={styles.manSitting} src={img} alt="manSittiyng" />
-    <StartFooter title={"start"} icon={img1}/>
+    <StartFooter title={"start"} icon={img1} to={"/instructions"}/>
     </div>
 }
 

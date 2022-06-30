@@ -1,6 +1,6 @@
 
 import { Outlet, Route, Routes } from "react-router-dom"
-import Context from "../../context";
+// import Context from "../../context";
 import Dashboard from "../../pages-order/Dashboard"
 import { SignUp, } from "../../pages-order/signup/index"
 import { } from "../../pages-order/admin"
@@ -10,6 +10,7 @@ import { } from "../../pages-order/levelExercise/index"
 import { } from "../../pages-order/setting"
 import { } from "../../pages-order/trainFocus"
 import { } from "../../pages-order/trainReading"
+import Test from "../test/Test"
 
 function Content() {
     return <>
@@ -59,7 +60,7 @@ function Content() {
                 <Route path="add-remove-teacher" element={<>add-remove-teacher</>} />
             </Route>
 
-            <Route path='/test' element={<Test />} />
+            <Route path='/test' element={<Test/>} />
         </Routes>
     </>
 }
